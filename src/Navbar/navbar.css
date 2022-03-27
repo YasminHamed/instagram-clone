@@ -1,0 +1,48 @@
+.icons{
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    display: flex;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+.top{
+    position: relative;
+    z-index: 1;
+}
+.profilephoto{
+    margin-top: -5px;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+.search{
+    right: 470px;
+    position: absolute;
+    padding-left: 30px;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+}
+.iconser{
+    position: absolute;
+    right: 680px;
+    z-index: 1;
+}
+.logo{
+    margin-left:60px;
+    width: 50%;
+}
+.navbar{
+    position: fixed;
+}
+@media screen and (max-width: 1050px){
+    .navbar{
+        position: fixed;
+        width: 900px;
+    }
+}

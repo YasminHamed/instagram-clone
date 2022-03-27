@@ -1,0 +1,84 @@
+.left{
+    margin-top: 40px;
+}
+.leftt{
+    margin-top: 100px;
+}
+.logo{
+    width: 150px;
+    margin-left: 80px;
+}
+.mobile{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 45px;
+    left: 115px;
+    z-index: -1;
+}
+.inputer{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 12px !important;
+    width: 320px;
+    height: 35px !important;
+}
+.loginer{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px !important;
+    background-color: rgb(0, 89, 255);
+    border: none;
+}
+.sec1{
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+.sec2{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-right: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+.newacc{
+    font-size: 120px;
+}
+.download{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.get{
+    margin-top: 20px;
+    color: rgb(92, 92, 92);
+    margin-left: 170px;
+}
+.container p{
+    font-size: 10px;
+    cursor: pointer;
+}
+.copyrights{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+.valid{
+    color: rgb(255, 0, 0);
+}
+@media screen and (max-width: 1210px){
+    .instamaain{
+        margin-left: 20%;
+    }
+    .left{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .instamaain{
+        margin-left: 0%;
+    }
+}

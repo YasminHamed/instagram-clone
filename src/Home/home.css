@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.sidebar {
+    margin-top: 56px;
+    position: absolute;
+    right: 99px;
+    width: 300px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+h6{
+    margin-top: -8px;
+    font-size: 10px;
+    color: rgb(95, 95, 95);
+}
+h5{
+    font-size: 14px;
+}
+.name{
+    margin-left: 10px;
+}
+.imgg{
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+}
+.h6{
+    margin-top: -8px;
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+.h5{
+    color: #000000;
+    font-size: 20px;
+}
+.name1{
+    margin-left: 15px;
+}
+.imgg1{
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+}
+.row{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.content{
+    margin-left: 70px;
+}
+@media screen and (max-width: 1210px){
+    .sidebar {
+        margin-top: 56px;
+        position: absolute;
+        right: 0%;
+        width: 25%;
+        background-color: #ffffff;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display:none;
+    }
+    .content{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sidebar{
+        display:none;
+    }
+}

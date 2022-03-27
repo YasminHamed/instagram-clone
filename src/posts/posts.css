@@ -1,0 +1,53 @@
+.card{
+    /* width: 670px; */
+    width: 75%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.profilephotoo{
+    border: 3px solid rgb(194, 194, 194);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.username{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.user{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.like{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.time{
+    margin-left: 30px;
+}
+@media screen and (max-width: 1210px){
+    .card{
+        /* width: 670px; */
+        width: 75%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .card{
+        width: 90%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+}
